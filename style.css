@@ -147,6 +147,11 @@ button[type="submit"]:active {
   border-radius: var(--radius);
   padding: var(--space-3);
   animation: fadeIn var(--transition-base);
+
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
 }
 
 .card__title {
