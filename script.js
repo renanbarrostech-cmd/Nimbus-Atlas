@@ -54,6 +54,7 @@ function renderCountry(country) {
 }
 
 countryForm.addEventListener("submit", async function (event) {
+  resultContainer.innerHTML = `<div class="loading">Buscando país...</div>`;
   event.preventDefault();
   try {
     const response = await fetch(
