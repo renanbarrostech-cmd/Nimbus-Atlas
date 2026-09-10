@@ -180,6 +180,8 @@ button[type="submit"]:active {
   color: var(--color-text-secondary);
 }
 
+
+
 /* Estado de erro */
 .error-message {
   background: var(--color-danger-soft);
@@ -208,6 +210,20 @@ button[type="submit"]:active {
   border-top-color: var(--color-accent);
   border-radius: 50%;
   animation: spin 700ms linear infinite;
+}
+
+#weatherBtn{
+   background: var(--color-border);
+   border-radius: var(--radius);
+   border: none;
+   padding: var(--space-1);
+   margin: 20px 0 20px 0;
+   cursor: pointer;
+}
+
+#weatherBtn:hover {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
 }
 
 /* ---- Animações ---- */
